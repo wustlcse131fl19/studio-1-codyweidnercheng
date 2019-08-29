@@ -9,10 +9,18 @@ import support.cse131.ArgsProcessor;
 public class HiFour {
 	public static void main(String[] args) {
 		ArgsProcessor ap = new ArgsProcessor(args);
-		String s0 = ap.nextString("Enter value for arg 0");
-		String s1 = ap.nextString("Enter value for arg 1");
-		String s2 = ap.nextString("Enter value for arg 2");
-		String s3 = ap.nextString("Enter value for arg 3");
+		String s1 = ap.nextString("type your name");
+		String s2 = ap.nextString("type your name");
+		String s3 = ap.nextString("type your name");
+		String s4 = ap.nextString("type your name");
+
+		System.out.println("Hi,  " + s1 + " how are you doing today");
+		System.out.println("Hi,  " + s2 + " how are you doing today");
+		System.out.println("Hi,  " + s3 + " how are you doing today" ) ;
+		System.out.println("Hi,  " + s4 + " how are you doing today" ) ;
+
+
+
 		//
 		// Say hello to the names in s0 through s3.
 		//
